@@ -1,2 +1,2 @@
-# product-list-example-ios
-Product List Example
+# products-list-example-ios
+Products List Example
