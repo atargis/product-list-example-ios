@@ -85,6 +85,22 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		1E8A00C323BF6A8D00004989 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				1E8A00C423BF6A9600004989 /* LaunchScreen */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		1E8A00C423BF6A9600004989 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1EFAAE8223BE52A80077663C /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
 		1EFAAE6B23BE52A70077663C = {
 			isa = PBXGroup;
 			children = (
@@ -111,9 +127,9 @@
 			children = (
 				1EFAAE7723BE52A70077663C /* AppDelegate.swift */,
 				1EFAAEAA23BE57AC0077663C /* Coordinators */,
+				1E8A00C323BF6A8D00004989 /* Scenes */,
 				1EFAAE7B23BE52A70077663C /* ViewController.swift */,
 				1EFAAE8023BE52A80077663C /* Assets.xcassets */,
-				1EFAAE8223BE52A80077663C /* LaunchScreen.storyboard */,
 				1EFAAE8523BE52A80077663C /* Info.plist */,
 			);
 			path = ProductsListExample;
