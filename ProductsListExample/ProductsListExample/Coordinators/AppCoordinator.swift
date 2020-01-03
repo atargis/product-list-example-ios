@@ -8,13 +8,18 @@
 
 import UIKit
 
+private struct Localizable {
+    static let helloTitle = "Hello World! :)"
+}
+
 final class AppCoordinator: Coordinator {
     private let window: UIWindow
+    private let navigationController = CustomNavigationController(rootViewController: UIViewController())
 
     var rootViewController: UIViewController {
-        return UINavigationController()
+        return navigationController
     }
-    
+
     init(window: UIWindow) {
         self.window = window
         self.window.rootViewController = rootViewController
@@ -22,6 +27,13 @@ final class AppCoordinator: Coordinator {
     }
 
     func start() {
-        // TODO: - Change for correct screen (in the future)
+        showProductList()
+    }
+
+    func showProductList() {
+        // TODO: - Change helloSampleVC to proper TableViewController class
+        let helloSampleViewController = UIViewController()
+        helloSampleViewController.title = Localizable.helloTitle
+        navigationController.viewControllers = [helloSampleViewController]
     }
 }
