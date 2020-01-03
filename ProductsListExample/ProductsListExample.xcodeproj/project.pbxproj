@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E8A00C123BF68B700004989 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A00C023BF68B700004989 /* Coordinator.swift */; };
 		1EFAAE7823BE52A70077663C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAAE7723BE52A70077663C /* AppDelegate.swift */; };
 		1EFAAE7C23BE52A70077663C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAAE7B23BE52A70077663C /* ViewController.swift */; };
 		1EFAAE8123BE52A80077663C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EFAAE8023BE52A80077663C /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E8A00C023BF68B700004989 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		1EFAAE7423BE52A70077663C /* ProductsListExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductsListExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EFAAE7723BE52A70077663C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EFAAE7B23BE52A70077663C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +77,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E8A00C223BF68BD00004989 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1E8A00C023BF68B700004989 /* Coordinator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		1EFAAE6B23BE52A70077663C = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +140,7 @@
 		1EFAAEAA23BE57AC0077663C /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
+				1E8A00C223BF68BD00004989 /* Protocols */,
 				1EFAAEA823BE57A30077663C /* AppCoordinator.swift */,
 			);
 			path = Coordinators;
@@ -265,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E8A00C123BF68B700004989 /* Coordinator.swift in Sources */,
 				1EFAAEA923BE57A30077663C /* AppCoordinator.swift in Sources */,
 				1EFAAE7C23BE52A70077663C /* ViewController.swift in Sources */,
 				1EFAAE7823BE52A70077663C /* AppDelegate.swift in Sources */,
