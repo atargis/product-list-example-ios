@@ -32,7 +32,7 @@ final class AppCoordinator: Coordinator {
 
     func showProductList() {
         // TODO: - Change helloSampleVC to proper TableViewController class
-        let helloSampleViewController = UIViewController()
+        let helloSampleViewController = ProductListVC()
         helloSampleViewController.title = Localizable.helloTitle
         navigationController.viewControllers = [helloSampleViewController]
     }

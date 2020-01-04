@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E5C4C1623C11CA10071D710 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C4C1523C11CA10071D710 /* ProductListView.swift */; };
+		1E5C4C1823C11CD80071D710 /* ProductListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E5C4C1723C11CD80071D710 /* ProductListView.xib */; };
+		1E5C4C1A23C120C10071D710 /* XibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5C4C1923C120C10071D710 /* XibLoadable.swift */; };
 		1E8A00C123BF68B700004989 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A00C023BF68B700004989 /* Coordinator.swift */; };
 		1E8A00C623BF8C8E00004989 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A00C523BF8C8E00004989 /* CustomNavigationController.swift */; };
 		1EFAAE7823BE52A70077663C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAAE7723BE52A70077663C /* AppDelegate.swift */; };
-		1EFAAE7C23BE52A70077663C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAAE7B23BE52A70077663C /* ViewController.swift */; };
+		1EFAAE7C23BE52A70077663C /* ProductListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAAE7B23BE52A70077663C /* ProductListVC.swift */; };
 		1EFAAE8123BE52A80077663C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EFAAE8023BE52A80077663C /* Assets.xcassets */; };
 		1EFAAE8423BE52A80077663C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFAAE8223BE52A80077663C /* LaunchScreen.storyboard */; };
 		1EFAAE8F23BE52A80077663C /* ProductsListExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFAAE8E23BE52A80077663C /* ProductsListExampleTests.swift */; };
@@ -36,11 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E5C4C1523C11CA10071D710 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		1E5C4C1723C11CD80071D710 /* ProductListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductListView.xib; sourceTree = "<group>"; };
+		1E5C4C1923C120C10071D710 /* XibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibLoadable.swift; sourceTree = "<group>"; };
 		1E8A00C023BF68B700004989 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		1E8A00C523BF8C8E00004989 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		1EFAAE7423BE52A70077663C /* ProductsListExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductsListExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EFAAE7723BE52A70077663C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1EFAAE7B23BE52A70077663C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EFAAE7B23BE52A70077663C /* ProductListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListVC.swift; sourceTree = "<group>"; };
 		1EFAAE8023BE52A80077663C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EFAAE8323BE52A80077663C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EFAAE8523BE52A80077663C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,6 +85,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E5C4C1423C1191F0071D710 /* ProductList */ = {
+			isa = PBXGroup;
+			children = (
+				1EFAAE7B23BE52A70077663C /* ProductListVC.swift */,
+				1E5C4C1523C11CA10071D710 /* ProductListView.swift */,
+				1E5C4C1723C11CD80071D710 /* ProductListView.xib */,
+			);
+			path = ProductList;
+			sourceTree = "<group>";
+		};
 		1E8A00C223BF68BD00004989 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +106,7 @@
 		1E8A00C323BF6A8D00004989 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				1E5C4C1423C1191F0071D710 /* ProductList */,
 				1E8A00C423BF6A9600004989 /* LaunchScreen */,
 			);
 			path = Scenes;
@@ -107,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				1E8A00C823BF8C9D00004989 /* Controllers */,
+				1E5C4C1923C120C10071D710 /* XibLoadable.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -146,7 +164,6 @@
 				1EFAAE7723BE52A70077663C /* AppDelegate.swift */,
 				1EFAAEAA23BE57AC0077663C /* Coordinators */,
 				1E8A00C323BF6A8D00004989 /* Scenes */,
-				1EFAAE7B23BE52A70077663C /* ViewController.swift */,
 				1EFAAE8023BE52A80077663C /* Assets.xcassets */,
 				1EFAAE8523BE52A80077663C /* Info.plist */,
 				1E8A00C723BF8C9300004989 /* Helpers */,
@@ -286,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EFAAE8423BE52A80077663C /* LaunchScreen.storyboard in Resources */,
+				1E5C4C1823C11CD80071D710 /* ProductListView.xib in Resources */,
 				1EFAAE8123BE52A80077663C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,10 +329,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E5C4C1623C11CA10071D710 /* ProductListView.swift in Sources */,
 				1E8A00C123BF68B700004989 /* Coordinator.swift in Sources */,
 				1E8A00C623BF8C8E00004989 /* CustomNavigationController.swift in Sources */,
 				1EFAAEA923BE57A30077663C /* AppCoordinator.swift in Sources */,
-				1EFAAE7C23BE52A70077663C /* ViewController.swift in Sources */,
+				1E5C4C1A23C120C10071D710 /* XibLoadable.swift in Sources */,
+				1EFAAE7C23BE52A70077663C /* ProductListVC.swift in Sources */,
 				1EFAAE7823BE52A70077663C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
